@@ -1,0 +1,253 @@
+body{
+    color: black;
+}
+.colored-section{
+    background-image:url("images/header.jpg");
+    margin-bottom: 200px;
+    width:100%;
+    max-width: 1440px;
+    height: 630px;
+}
+.number{
+    margin-left: 16%;
+}
+
+hr {
+    width: 70%;
+    border-color: gray;
+    border-bottom: 2px;
+    
+}
+.nav-link{
+    color:white!important;
+}
+.navbar-nav{
+    margin-right: auto;
+}
+.navbar-brand{
+    margin-left: 15%;
+}
+.second-img{
+    margin: auto;
+}
+.h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.flower{
+    margin-left: 42.5%
+}
+.products{
+    text-align: center;
+}
+.list2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .list2 li:hover{
+cursor: pointer;
+color: green;
+  }
+.search{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ .actived{
+    color:#1A5221;
+ }
+  li {
+    display: inline;
+  }
+.flower{
+    margin-bottom: 10px;
+}
+.aboutdiv{
+    float:right;
+    margin-top: 80px;
+    margin-right: 280px ;
+    
+}
+.aboutflower{
+    margin-right: 50px;
+}
+.abouth1{
+    margin-left: 18px;
+}
+.mehsullar{
+    margin-top: 40px;
+}
+
+a:hover{
+    color:green;
+    text-decoration: none;
+}
+.green{
+    color:green;
+}
+.bloglar{
+    text-align: center;
+    margin-top: 10px;
+}
+.blog-content{
+   font-size: 20px;
+}
+.blog-content-paragraph{
+    font-size: 15px;
+}
+.blog-1{
+    margin-top: 35px;
+}
+.blog-3{
+    margin-top: 35px;
+}
+.footer-list{
+    display: block;
+}
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    margin-top:240px;
+  }
+  
+  .vertical-menu a {
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  .bold{
+    font-weight: bold;
+  }
+  
+ .footer{
+    background-image: url('images/footer.png');
+ }
+ .footer-logo{
+    margin-top: 320px;
+ }
+
+.green-fruit{
+    background-color: #1A5221;
+    width: 320px;
+    height: 250px;
+    margin-left: 25px;
+    margin-top: 350px;
+    width:100%;
+    max-width: 320px;
+}
+.meyve{
+    color: white;
+    
+}
+
+
+.fruits{
+    width:200px;
+    height: 230.48px;
+    margin-left: 80px;
+    padding-bottom: 100px;
+}
+.daha{
+    color: white;
+}
+.terevezler{
+    background-color: #91B40D;
+    width: 320px;
+    height: 250px;
+    margin-left: 120px;
+    margin-top: 350px;
+    width:100%;
+    max-width: 320px;
+}
+.vegetables{
+    width: 290.5px;
+    height: 166.81px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    
+    
+    
+}
+.terevez{
+    color:white;
+}
+.flour{
+    margin-left: 120px;
+    background-color: #FFBF00;
+    width: 320px;
+    height: 250px;
+    margin-top: 350px;
+    width:100%;
+    max-width: 320px;
+}
+.un{
+    width: 350px;
+    height:262.5px;
+    margin-left: 30px;
+    padding-bottom: 100px;
+}
+.price{
+    margin-left: 50px;
+}
+.taxil{
+    color: white;
+}
+.header-list {
+    list-style-type: none;
+    margin-right: 230px;
+    padding: 0;
+    overflow: hidden;
+  }
+  li.axtar:hover{
+    cursor: pointer;
+    
+      }
+  
+.header-li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:8px;
+    text-decoration: none;
+  }
+  .grey{
+    color:#5F5C5C;
+  }
+  
+  .row{
+
+    margin:0px !important;
+    padding: 0px !important;
+
+  }
+
+  .copyright{
+    color: white;
+  }
+.hr2{
+    width: 100%;
+    border-color: gray;
+    border-bottom: 2px;
+}
+.phone{
+    margin-left: 210px;
+}
+.phone-number{
+    color:white
+}
+.white{
+    background-color: #ffffff;
+}
+.card{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.kimik{
+    margin-top: 70px;
+}
