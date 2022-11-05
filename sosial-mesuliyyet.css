@@ -1,0 +1,800 @@
+
+#header-img{
+  background-image: url("images/close-up-woman-harvesting-garden.png");
+  width: 1440px;
+  height: 500px;
+  max-width: 100%;
+  background-repeat: no-repeat;
+}
+.tree{
+  position: relative;
+  left: 1000px;
+  top: 370px;
+
+  
+ 
+}
+#mehsullar{
+  margin-top: 30px;
+}
+.img-2{
+  float: left;
+}
+.filters {
+  text-align: center;
+  padding: 0;
+
+}
+
+  .filters__item {
+    display: inline-block;
+  }
+  .filters__btn {
+      font-weight: 800;
+      color: black;
+      display: inline-block;
+      padding: 1em;
+    }
+
+.gallery {
+  margin-top: 120px !important;
+  padding: 0;
+}
+
+   .gallery__item {
+  
+    display: inline-block;
+    margin-left: 10px;
+  } 
+
+ 
+  #cards_landscape_wrap-2{
+      text-align: center;
+      
+      
+    }
+    #cards_landscape_wrap-2 .container{
+      padding-top: 80px; 
+      padding-bottom: 100px;
+    }
+    #cards_landscape_wrap-2 a{
+      text-decoration: none;
+      outline: none;
+    }
+    #cards_landscape_wrap-2 .card-flyer {
+      border-radius: 5px;
+    }
+    #cards_landscape_wrap-2 .card-flyer .image-box{
+      overflow: hidden;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+      border-radius: 5px;
+    }  
+    
+    /* mehsullar */
+    body{
+      color: black;
+      font-family: 'Montserrat', sans-serif;;
+  }
+  .container {
+    display: flex;
+    width: 1040px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+.pic{
+  max-width: 100%;
+  padding: 20px;
+ 
+}
+.num2{
+  position: relative;
+  bottom: 30px;
+  
+}
+  .card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+  }
+  .card-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 250px;
+  }
+  
+  .tag {
+    background: #cccccc;
+    border-radius: 50px;
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .tag-teal {
+    background-color: #47bcd4;
+  }
+  .tag-purple {
+    background-color: #5e76bf;
+  }
+  .tag-pink {
+    background-color: #cd5b9f;
+  }
+  
+  .card-body p {
+    font-size: 13px;
+    margin: 0 0 40px;
+  }
+  .user {
+    display: flex;
+    margin-top: auto;
+  }
+  
+  .user img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .user-info h5 {
+    margin: 0;
+  }
+  .user-info small {
+    color: #545d7a;
+  }
+  
+  
+  .colored-section{
+      
+      margin-bottom: 200px;
+      width:100%;
+      max-width: 1440px;
+      height: 630px;
+  }
+  .number{
+      margin-left: 16%;
+  }
+  
+  hr {
+      width: 70%;
+      border-color: gray;
+      border-bottom: 2px;
+      
+  }
+ 
+      
+  
+  .h1{
+      text-align: center;
+      margin-top: 30px;
+  }
+  .flower{
+      margin-left: 42.5%
+  }
+  
+  .products{
+      text-align: center;
+  }
+  .list2{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .list2 li:hover{
+  cursor: pointer;
+  color: green;
+    }
+    
+  
+   .actived{
+      color:#1A5221;
+   }
+    li {
+      display: inline;
+    }
+  .flower{
+      margin-bottom: 10px;
+  }
+ 
+
+  .mehsullar{
+      margin-top: 40px;
+  }
+  
+  a:hover{
+      color:green;
+      text-decoration: none;
+  }
+  .green{
+      color:green;
+  }
+  .bloglar{
+      text-align: center;
+      margin-top: 10px;
+  }
+  .blog-content{
+     font-size: 20px;
+  }
+  .blog-content-paragraph{
+      font-size: 15px;
+  }
+  .blog-1{
+      margin-top: 35px;
+  }
+  .blog-3{
+      margin-top: 35px;
+  }
+  .footer-list{
+      display: block;
+  }
+  .vertical-menu {
+      width: 200px; /* Set a width if you like */
+      margin-top:240px;
+    }
+    
+    .vertical-menu a {
+      color: black !important; /* Black text color */
+      display: block; /* Make the links appear below each other */
+      padding: 12px; /* Add some padding */
+      text-decoration: none; /* Remove underline from links */
+    }
+    .bold{
+      font-weight: bold;
+    }
+    
+   footer{
+    
+      background-image: url('images/Group 442.png') !important;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+   }
+   /* .text-reset{
+      color: white !important;
+   } */
+   .text-reset:hover{
+    color: #91B40D !important;
+  }
+   .footer-logo{
+      margin-top: 320px;
+   }
+  
+  
+ 
+  
+  .price{
+      /* margin-left: 20px; */
+      text-align: center;
+     
+  }
+  .card-footer{
+    background: rgb(231, 236, 181);
+  }
+  .header-list {
+      list-style-type: none;
+      margin-right: 230px;
+      padding: 0;
+      overflow: hidden;
+    }
+    li.axtar:hover{
+      cursor: pointer;
+      
+        }
+    
+  .header-li {
+      float: right;
+    }
+    
+    
+    .grey{
+      color:#5F5C5C;
+    }
+    
+    .row{
+  
+      margin:0px !important;
+      padding: 0px !important;
+  
+    }
+  
+    .copyright{
+      color: white;
+    }
+  .hr2{
+      width: 100%;
+      border-color: gray;
+      border-bottom: 2px;
+  }
+  .phone{
+      margin-left: 210px;
+  }
+  .phone-number{
+      color:white
+  }
+  
+ 
+  .filters {
+    text-align: center;
+    padding: 0;
+  
+  }
+  
+    .filters__item {
+      display: inline-block;
+    }
+  
+      .filters__btn {
+        font-weight: 800;
+        color: black;
+        display: inline-block;
+        padding: 1em;
+      }
+  
+  .gallery {
+    margin: 0;
+    padding: 0;
+  }
+  
+     .gallery__item {
+    
+      display: inline-block;
+      margin-left: 10px;
+    } 
+  
+   
+  
+  
+  .is-hidden {
+    display: none;
+  }
+  
+  .kimik{
+      margin-top: 70px;
+  }
+  
+  #cards_landscape_wrap-2{
+      text-align: center;
+      
+      
+    }
+    #cards_landscape_wrap-2 .container{
+      padding-top: 80px; 
+      padding-bottom: 100px;
+    }
+    #cards_landscape_wrap-2 a{
+      text-decoration: none;
+      outline: none;
+    }
+    #cards_landscape_wrap-2 .card-flyer {
+      border-radius: 5px;
+    }
+    #cards_landscape_wrap-2 .card-flyer .image-box{
+      overflow: hidden;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+      border-radius: 5px;
+    }
+    
+    
+    
+    #cards_landscape_wrap-2 .card-flyer .image-box img{
+      -webkit-transition:all .9s ease; 
+      -moz-transition:all .9s ease; 
+      -o-transition:all .9s ease;
+      -ms-transition:all .9s ease; 
+      width: 100%;
+      height: 200px;
+    }
+    #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+      opacity: 0.7;
+      -webkit-transform:scale(1.15);
+      -moz-transform:scale(1.15);
+      -ms-transform:scale(1.15);
+      -o-transform:scale(1.15);
+      transform:scale(1.15);
+    }
+    #cards_landscape_wrap-2 .card-flyer .text-box{
+      text-align: center;
+    }
+    #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+      padding: 30px 18px;
+    }
+    #cards_landscape_wrap-2 .card-flyer{
+      background: #FFFFFF;
+      margin-top: 50px;
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+      box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+    }
+    #cards_landscape_wrap-2 .card-flyer:hover{
+      background: #fff;
+      box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+      margin-top: 50px;
+    }
+    #cards_landscape_wrap-2 .card-flyer .text-box p{
+      margin-top: 10px;
+      margin-bottom: 0px;
+      padding-bottom: 0px; 
+      font-size: 14px;
+      letter-spacing: 1px;
+      color: #000000;
+    }
+    #cards_landscape_wrap-2 .card-flyer .text-box h6{
+      margin-top: 0px;
+      margin-bottom: 4px; 
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: 'Roboto Black', sans-serif;
+      letter-spacing: 1px;
+      color: #00acc1;
+    }
+  
+    .fruit{
+      float: right;
+      margin-top:50px;
+    }
+    .position{
+      text-align: left;
+      color:#fff;
+      font-size: 30px;
+    }
+    .paragraph{
+      text-align: left;
+      color: #fff !important;
+      font-size: 15px !important;
+    }
+    .flour{
+      float: right !important;
+      margin-top:50px;
+      
+      
+    }
+    .vegetable{
+      float: right;
+      margin-top:150px;
+    }
+    .card-flyer .box-1{
+      background: #1A5221;
+      height: 280px;
+      margin:10px;
+      
+    
+    }
+    .card-flyer .box-2{
+      background: #91B40D;
+      height: 280px;
+      margin:10px;
+    }
+    .card-flyer .box-3{
+      background: #FFBF00;
+      height: 280px;
+      margin:10px;
+    }
+  
+    #cards_landscape_wrap-2 .card  img{
+      -webkit-transition:all .9s ease; 
+      -moz-transition:all .9s ease; 
+      -o-transition:all .9s ease;
+      -ms-transition:all .9s ease; 
+      
+    }
+    #cards_landscape_wrap-2 .card:hover  img{
+      opacity: 0.7;
+      -webkit-transform:scale(1.15);
+      -moz-transform:scale(1.15);
+      -ms-transform:scale(1.15);
+      -o-transform:scale(1.15);
+      transform:scale(1.15);
+    }
+   
+  
+  .card__body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+
+  .card__body h4 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  
+  .card__footer {
+    display: flex;
+    padding: 1rem;
+    margin-top: auto;
+  }
+  .logo1{
+      margin-top: 120px;
+      max-width: 100%;
+  }
+  #position1{
+      margin-top: 70px;
+  }
+  
+  
+  .main-slider{
+    padding-top: 300px;
+  }
+  
+ /*   .text-uppercase{
+    color: white !important;
+   } */
+   /* Базовые стили слоя затемнения и модального окна  */
+.overlay {
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+visibility: hidden;
+/* фон затемнения */
+background-color: rgba(0, 0, 0, 0.7);
+opacity: 0;
+position: fixed; /* фиксированное поцизионирование */
+cursor: default; /* тип курсара */
+-webkit-transition: opacity .5s;
+-moz-transition: opacity .5s;
+-ms-transition: opacity .5s;
+-o-transition: opacity .5s;
+transition: opacity .5s;
+}
+.overlay:target {
+visibility: visible;
+opacity: 1;
+}
+.is-image {
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+display:block;
+margin: 10px;
+width: 100%;
+height: auto;
+/* скругление углов встроенных картинок */
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+border-radius: 4px;
+}
+/* встроенные элементы м-медиа, фреймы */
+embed, iframe {
+top: 0;
+right: 0;
+bottom: 0; 
+left: 0; 
+display:block;
+margin: auto;
+min-width: 320px;
+max-width: 600px;
+width: 100%;
+}
+.popup h1 { /* заголовок 1 */
+color: #008000;
+text-align: left;
+text-shadow: 0 1px 3px rgba(0,0,0,.3);
+font:24px 'Trebuchet MS', Helvetica, sans-serif;
+font-weight: bold;
+}
+.popup h2 { /* заголовок 2 */
+color: #008000;
+text-align: left;
+text-shadow: 0 1px 3px rgba(0,0,0,.3);
+font:22px 'Trebuchet MS', Helvetica, sans-serif;
+}
+/*** Формируем стили модального окна ***/
+.popup {
+top: 0;
+right: 0;
+left: 0;
+font-size: 14px;
+z-index: 10;
+display: block;
+visibility: hidden;
+margin: 0 auto;
+width: 90%;
+min-width: 320px;
+max-width: 780px;
+/* фиксированное позиционирование, окно стабильно при прокрутке */
+position: fixed;
+padding: 15px;
+border: 1px solid #383838;
+/* скругление углов */
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-ms-border-radius: 4px;
+border-radius: 4px;
+background-color: #F7F7F7;
+/* внешняя тень блока */
+-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+-moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+-ms-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+-o-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+/* полная прозрачность окна, появление при клике */
+opacity: 0;
+/* эффект перехода (появление) */
+-webkit-transition: all ease .5s;
+-moz-transition: all ease .5s;
+-ms-transition: all ease .5s;
+-o-transition: all ease .5s;
+transition: all ease .5s;
+}
+/* активируем появление окна и затемнение фона */
+.overlay:target+.popup {
+top: 20%; /* положение окна от верха страницы при появлении */
+visibility: visible;
+opacity: 1; /* убираем прозрачность */
+}
+/* формируем кнопку закрытия */
+.close {
+position: absolute;
+top: -10px;
+right: -10px;padding: 0;
+width: 20px;
+height: 20px;
+border: 2px solid #ccc;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+-ms-border-radius: 15px;
+-o-border-radius: 15px;
+border-radius: 15px;
+background-color: rgba(61, 61, 61, 0.8);
+-webkit-box-shadow: 0px 0px 10px #000;
+-moz-box-shadow: 0px 0px 10px #000;
+box-shadow: 0px 0px 10px #000;
+text-align: center;
+text-decoration: none;
+font-weight: bold;
+line-height: 20px;
+/* задаём значения и эффект перехода при наведении */
+-webkit-transition: all ease .8s;
+-moz-transition: all ease .8s;
+-ms-transition: all ease .8s;
+-o-transition: all ease .8s;
+transition: all ease .8s;
+}
+.close:before {
+color: rgba(255, 255, 255, 0.9);
+content: "X";
+text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+font-size: 12px;
+}
+.close:hover {
+background-color: rgba(252, 20, 0, 0.8);
+/* крутим кнопку при наведении */
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);    
+}
+/* опционально при добавлении вложений */
+.popup p, .popup div {
+margin-bottom: 10px;
+}
+
+
+/* button */
+.flow{
+  float: right;
+  max-width: 100%;
+  position: relative;
+  top: 400px;
+  
+  
+}
+
+.button {
+
+font-size: 20px;
+color: white;
+width: 270px;
+text-decoration: none;
+padding: 10px 5px;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+font-family: Helvetica, Arial, sans-serif;
+transition: all 0.3s;
+-moz-transition: all 0.3s;
+-webkit-transition: all 0.3s;
+cursor: pointer;
+
+}
+.button-blue {
+background-color: #0600FF;
+}
+.button:hover {
+background-color: #5555ff;
+box-shadow:0 0 10px 10px #b7b7ff inset;
+}
+.button:active {
+  background-color: #0000ff;
+  box-shadow:0 0 0 0 #ffffff; 
+}
+.apple{
+float: left;
+}
+.black{
+color: black !important;
+}
+.img-3{
+float: right;
+}
+.img-4{
+float: left;
+
+}
+
+.vegeta{
+  max-width: 100%;
+}
+.flow{
+  float: right;
+  max-width: 100%;
+  position: relative;
+  top: 400px;
+  
+  
+}
+#sosial-mesuliyyet{
+  margin-top: 100px;
+}
+.xid{
+  font-weight: bold;
+}
+
+a.nav-link {
+  box-shadow: inset 0 0 0 0 #91B40D;
+  color: #91B40D;
+  /* padding: 0 .25rem;
+  margin: 0 -.25rem; */
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+ a.nav-link:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #91B40D;;
+}
+
+/* Presentational styles */
+ a.nav-link {
+  color: #91B40D;
+  font-family: 'Poppins', sans-serif;
+  /* font-size: 27px; */
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.telephone{
+  color: #000;
+}
+a.telephone:hover{
+  color: #000;
+}
