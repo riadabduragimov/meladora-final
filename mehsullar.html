@@ -10,6 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="mehsullar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5dd877f52e.js" crossorigin="anonymous"></script>
@@ -22,9 +24,11 @@
 
 </head>
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Əvvələ"><img src="images/up-arrow.png" alt="" width="50px"></button>
+
     <section id="header"  class="colored-section">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-          <p><i class="fa fa-phone" style="font-size:20px;color:#91B40D"></i><a class="telephone" href="tel:+994 (70) 5555777">+994 (70) 5555777</a> </p>
+          <p><a href="tel:+994 (70) 5555777"><i class="fa fa-phone" style="font-size:20px;color:#91B40D"></i></a><a class="telephone" href="tel:+994 (70) 5555777">+994 (70) 5555777</a> </p> 
             <div class="me-5 d-none d-lg-block">
               <span></span>
             </div>
@@ -55,7 +59,7 @@
           <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <a class="navbar-brand" href="index.html"><img src="images/Group 1.png" alt=""></a>
-                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
         
@@ -75,17 +79,19 @@
                   <a class="nav-link" href="xidmetler.html">Xidmətlərimiz</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#footerr">Sosial məsuliyyət</a>
+                    <a class="nav-link" href="sosial-mesuliyyet.html">Sosial məsuliyyət</a>
                   </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Əlaqə</a>
+                    <a class="nav-link" href="elaqe.html">Əlaqə</a>
                 </li>
                 <li class="nav-item axtar">
-                    <img class="search" src="images/Path 13.png" alt="">
-                    <form id="testAdd" action="" method="POST">
-                      <div class="del"></div>
-
+                  <div class="container">
+                    <form class="searchbox">
+                        <input type="search" placeholder="Axtar" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+                        <input type="submit" class="searchbox-submit" value="Tap">
+                        <span class="searchbox-icon"><img src="images/Path 14.png" alt=""></span>
                     </form>
+                </div>
                 </li>
               </ul>
             </div>
@@ -108,13 +114,13 @@
             <img class="img-2" src="images/Group 417.png" alt="">
             <h1>Məhsullarimiz</h1>
            
-            <img class="img-3" src="images/Group 445.png" alt="">
-            <ul class="filters">
-                <li class="filters__item"><a href="#mehsullar"class="filters__btn  js-filter" data-category="all">All</a></li>
-                <li class="filters__item"><a href="#mehsullar" class="filters__btn  js-filter" data-category="c1">Meyveler</a></li>
-                <li class="filters__item"><a href="#mehsullar" class="filters__btn  js-filter" data-category="c2">Terevezler</a></li>
-                <li class="filters__item"><a href="#mehsullar" class="filters__btn  js-filter" data-category="c3">Taxillar</a></li>
-                <li class="filters__item"><a href="#mehsullar" class="filters__btn  js-filter" data-category="c4">Diger</a></li>
+<!--             <img class="img-3" src="images/Group 445.png" alt="">
+ -->            <ul class="filters">
+                <li class="filters__item"><a href="#mehsullar"class="filters__btn  js-filter" data-category="all">Hamısı</a></li>
+                <li class="filters__item"><a href="#mehsullar" class="filters__btn  js-filter" data-category="c1">Meyvələr</a></li>
+                <li class="filters__item"><a href="#mehsullar" class="filters__btn  js-filter" data-category="c2">Tərəvəzlər</a></li>
+                <li class="filters__item"><a href="#mehsullar" class="filters__btn  js-filter" data-category="c3">Taxıllar</a></li>
+                <li class="filters__item"><a href="#mehsullar" class="filters__btn  js-filter" data-category="c4">Digər</a></li>
               </ul>
               
               
@@ -133,7 +139,7 @@
                             <img class="apple"  src="images/932-9328480_apples-png-image-red-apple-fruit.png" alt="">
 
                             <h1 class="black">Alma</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p class="app">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 <!--                             <img title="" src="" width="150" height="150" alt="" /> Здесь вы можете разместить любое содержание, текст с картинками или видео! 
  -->                       <div class="row">
                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -354,22 +360,22 @@
                       Menyular
                     </h6>
                     <p>
-                      <a href="#biz-kimik" class="text-reset">Biz kimik?</a>
+                      <a href="biz-kimik.html" class="text-reset">Biz kimik?</a>
                     </p>
                     <p>
-                      <a href="#baglar" class="text-reset">Baglarımız</a>
+                      <a href="baglar.html" class="text-reset">Baglarımız</a>
                     </p>
                     <p>
                       <a href="#mehsullar" class="text-reset">Məhsullarımız</a>
                     </p>
                     <p>
-                      <a href="#blog" class="text-reset">Xidmətlərimiz</a>
+                      <a href="xidmetler.html" class="text-reset">Xidmətlərimiz</a>
                     </p>
                     <p>
-                        <a href="#footerr" class="text-reset">Sosial Məsuliyyət</a>
+                        <a href="sosial-mesuliyyet.html" class="text-reset">Sosial Məsuliyyət</a>
                       </p>
                       <p>
-                        <a href="#header" class="text-reset">Əlaqə</a>
+                        <a href="elaqe.html" class="text-reset">Əlaqə</a>
                       </p>
                   </div>
                   <!-- Grid column -->
@@ -422,6 +428,74 @@
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
+          function myFunction(x) {
+            if (x.matches) { 
+              $(".telephone").hide();
+              
+            } else {
+
+                $(".telephone").show();
+              
+            }
+          }
+          
+          var x = window.matchMedia("(max-width: 991px)")
+          myFunction(x) 
+          x.addListener(myFunction) 
+          $(document).ready(function(){
+            var submitIcon = $('.searchbox-icon');
+            var inputBox = $('.searchbox-input');
+            var searchBox = $('.searchbox');
+            var isOpen = false;
+            submitIcon.click(function(){
+                if(isOpen == false){
+                    searchBox.addClass('searchbox-open');
+                    inputBox.focus();
+                    isOpen = true;
+                } else {
+                    searchBox.removeClass('searchbox-open');
+                    inputBox.focusout();
+                    isOpen = false;
+                }
+            });  
+             submitIcon.mouseup(function(){
+                    return false;
+                });
+            searchBox.mouseup(function(){
+                    return false;
+                });
+            $(document).mouseup(function(){
+                    if(isOpen == true){
+                        $('.searchbox-icon').css('display','block');
+                        submitIcon.click();
+                    }
+                });
+        });
+            function buttonUp(){
+                var inputVal = $('.searchbox-input').val();
+                inputVal = $.trim(inputVal).length;
+                if( inputVal !== 0){
+                    $('.searchbox-icon').css('display','none');
+                } else {
+                    $('.searchbox-input').val('');
+                    $('.searchbox-icon').css('display','block');
+                }
+            }
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
 
           $( '.js-filter' ).on( 'click', function() {
   
